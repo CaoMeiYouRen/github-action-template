@@ -26,13 +26,5 @@ yarn-error.log*
 *.rar
 
 .git
-# ssl
-# *.crt
-# *.key
-# *.pem
-sessions
-/test
-*.assets
-#public
-dist
+
 temp
