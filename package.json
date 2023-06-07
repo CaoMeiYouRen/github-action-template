@@ -36,7 +36,7 @@
     "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@typescript-eslint/parser": "^5.8.0",
     "commitizen": "^4.2.3",
-    "conventional-changelog-cli": "^2.1.1",
+    "conventional-changelog-cli": "^3.0.0",
     "conventional-changelog-cmyr-config": "^2.0.2",
     "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
