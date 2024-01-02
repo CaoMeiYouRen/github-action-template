@@ -2,5 +2,5 @@ name: "Github Action Template"
 description: "github-action 项目模板"
 author: "CaoMeiYouRen"
 runs:
-  using: "node16"
+  using: "node20"
   main: "dist/index.js"
