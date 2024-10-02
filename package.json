@@ -57,7 +57,7 @@
     "validate-commit-msg": "^2.14.0"
   },
   "dependencies": {
-    "@actions/core": "^1.2.6"
+    "@actions/core": "^1.11.0"
   },
   "peerDependencies": {},
   "config": {
