@@ -37,8 +37,8 @@ importers:
         specifier: ^4.17.25
         version: 4.17.25
       '@types/node':
-        specifier: ^26.4.1
-        version: 26.4.1
+        specifier: ^26.5.0
+        version: 26.5.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.8.0
         version: 5.62.0(@typescript-eslint/parser@5.62.0(eslint@7.32.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@7.32.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
@@ -47,7 +47,7 @@ importers:
         version: 5.62.0(eslint@7.32.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       commitizen:
         specifier: ^4.3.2
-        version: 4.3.2(@types/node@26.4.1)(typescript@6.0.3)
+        version: 4.3.2(@types/node@26.5.0)(typescript@6.0.3)
       conventional-changelog-cli:
         specifier: ^5.0.0
         version: 5.0.0(conventional-commits-filter@5.0.0)
@@ -59,7 +59,7 @@ importers:
         version: 10.1.0
       cz-conventional-changelog:
         specifier: ^3.3.0
-        version: 3.3.0(@types/node@26.4.1)(typescript@6.0.3)
+        version: 3.3.0(@types/node@26.5.0)(typescript@6.0.3)
       debug:
         specifier: ^4.4.3
         version: 4.4.3(supports-color@7.2.0)
@@ -95,10 +95,10 @@ importers:
         version: 25.0.9(supports-color@7.2.0)(typescript@6.0.3)
       ts-node:
         specifier: ^10.0.0
-        version: 10.9.2(@types/node@26.4.1)(typescript@6.0.3)
+        version: 10.9.2(@types/node@26.5.0)(typescript@6.0.3)
       ts-node-dev:
         specifier: ^2.0.0
-        version: 2.0.0(@types/node@26.4.1)(typescript@6.0.3)
+        version: 2.0.0(@types/node@26.5.0)(typescript@6.0.3)
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -490,8 +490,8 @@ packages:
   '@types/node@18.19.130':
     resolution: {integrity: sha512-GRaXQx6jGfL8sKfaIDD6OupbIHBr9jv7Jnaml9tB7l4v068PAOXqfcujMMo5PhbIs6ggR1XODELqahT2R8v0fg==}
 
-  '@types/node@26.4.1':
-    resolution: {integrity: sha512-k97ENvZWtvA6yqz5/FS6a7duDgOPEeOQOc2iKS/nY6mX6qJUKtLnWzQS+Xj6tXweyj6ZcTAK2Qecetnvi9nCLA==}
+  '@types/node@26.5.0':
+    resolution: {integrity: sha512-dVSGpriSoCgz8WnDNTuSSuSv1PC/ALXihO4ulRZt7Md8k9mlbdin3lGOcDE8SnWOgf513ByWlXd7BK4azmyg/A==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2520,8 +2520,8 @@ packages:
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
-  undici-types@8.3.0:
-    resolution: {integrity: sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==}
+  undici-types@8.9.0:
+    resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
   undici@6.25.0:
     resolution: {integrity: sha512-ZgpWDC5gmNiuY9CnLVXEH8rl50xhRCuLNA97fAUnKi8RRuV4E6KG31pDTsLVUKnohJE0I3XDrTeEydAXRw47xg==}
@@ -2801,12 +2801,12 @@ snapshots:
 
   '@hutson/parse-repository-url@5.0.0': {}
 
-  '@inquirer/external-editor@1.0.3(@types/node@26.4.1)':
+  '@inquirer/external-editor@1.0.3(@types/node@26.5.0)':
     dependencies:
       chardet: 2.1.1
       iconv-lite: 0.7.2
     optionalDependencies:
-      '@types/node': 26.4.1
+      '@types/node': 26.5.0
 
   '@isaacs/cliui@9.0.0': {}
 
@@ -3119,9 +3119,9 @@ snapshots:
       undici-types: 5.26.5
     optional: true
 
-  '@types/node@26.4.1':
+  '@types/node@26.5.0':
     dependencies:
-      undici-types: 8.3.0
+      undici-types: 8.9.0
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -3442,17 +3442,17 @@ snapshots:
 
   commander@2.20.3: {}
 
-  commitizen@4.3.2(@types/node@26.4.1)(typescript@6.0.3):
+  commitizen@4.3.2(@types/node@26.5.0)(typescript@6.0.3):
     dependencies:
       cachedir: 2.4.0
-      cz-conventional-changelog: 3.3.0(@types/node@26.4.1)(typescript@6.0.3)
+      cz-conventional-changelog: 3.3.0(@types/node@26.5.0)(typescript@6.0.3)
       dedent: 0.7.0
       detect-indent: 6.1.0
       find-node-modules: 2.1.3
       find-root: 1.1.0
       fs-extra: 9.1.0
       glob: 7.2.3
-      inquirer: 8.2.7(@types/node@26.4.1)
+      inquirer: 8.2.7(@types/node@26.5.0)
       is-utf8: 0.2.1
       lodash: 4.18.1
       minimist: 1.2.8
@@ -3628,10 +3628,10 @@ snapshots:
     dependencies:
       type-fest: 1.4.0
 
-  cz-conventional-changelog@3.3.0(@types/node@26.4.1)(typescript@6.0.3):
+  cz-conventional-changelog@3.3.0(@types/node@26.5.0)(typescript@6.0.3):
     dependencies:
       chalk: 2.4.2
-      commitizen: 4.3.2(@types/node@26.4.1)(typescript@6.0.3)
+      commitizen: 4.3.2(@types/node@26.5.0)(typescript@6.0.3)
       conventional-commit-types: 3.0.0
       lodash.map: 4.6.0
       longest: 2.0.1
@@ -4170,9 +4170,9 @@ snapshots:
 
   ini@1.3.8: {}
 
-  inquirer@8.2.7(@types/node@26.4.1):
+  inquirer@8.2.7(@types/node@26.5.0):
     dependencies:
-      '@inquirer/external-editor': 1.0.3(@types/node@26.4.1)
+      '@inquirer/external-editor': 1.0.3(@types/node@26.5.0)
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       cli-cursor: 3.1.0
@@ -4258,7 +4258,7 @@ snapshots:
 
   jest-worker@26.6.2:
     dependencies:
-      '@types/node': 26.4.1
+      '@types/node': 26.5.0
       merge-stream: 2.0.0
       supports-color: 7.2.0
 
@@ -5032,7 +5032,7 @@ snapshots:
 
   tree-kill@1.2.2: {}
 
-  ts-node-dev@2.0.0(@types/node@26.4.1)(typescript@6.0.3):
+  ts-node-dev@2.0.0(@types/node@26.5.0)(typescript@6.0.3):
     dependencies:
       chokidar: 3.5.3
       dynamic-dedupe: 0.3.0
@@ -5042,7 +5042,7 @@ snapshots:
       rimraf: 2.7.1
       source-map-support: 0.5.21
       tree-kill: 1.2.2
-      ts-node: 10.9.2(@types/node@26.4.1)(typescript@6.0.3)
+      ts-node: 10.9.2(@types/node@26.5.0)(typescript@6.0.3)
       tsconfig: 7.0.0
       typescript: 6.0.3
     transitivePeerDependencies:
@@ -5050,14 +5050,14 @@ snapshots:
       - '@swc/wasm'
       - '@types/node'
 
-  ts-node@10.9.2(@types/node@26.4.1)(typescript@6.0.3):
+  ts-node@10.9.2(@types/node@26.5.0)(typescript@6.0.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.9
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 26.4.1
+      '@types/node': 26.5.0
       acorn: 8.11.3
       acorn-walk: 8.3.1
       arg: 4.1.3
@@ -5112,7 +5112,7 @@ snapshots:
   undici-types@5.26.5:
     optional: true
 
-  undici-types@8.3.0: {}
+  undici-types@8.9.0: {}
 
   undici@6.25.0: {}
 
